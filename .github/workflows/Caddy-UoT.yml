@@ -21,7 +21,7 @@ jobs:
         go install github.com/caddyserver/xcaddy/cmd/xcaddy@latest
         ~/go/bin/xcaddy build \
         --with github.com/caddyserver/forwardproxy@caddy2=github.com/aUsernameWoW/forwardproxy@udpintcp \
-        --with github.com/imgk/caddy-trojan@master
+        --with github.com/imgk/caddy-trojan
         chmod +x caddy
         tar zcvf ./caddy.tar.gz ./caddy
     - name: Output
