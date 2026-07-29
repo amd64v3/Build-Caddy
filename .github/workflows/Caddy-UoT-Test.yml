@@ -1,4 +1,4 @@
-name: Caddy-UoT Build-Latest
+name: Caddy-UoT-Test
 
 on:
   workflow_dispatch:
